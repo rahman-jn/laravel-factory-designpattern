@@ -1,5 +1,5 @@
 {
-    "name": "rhman/factoryDesignpattern",
+    "name": "rhman/factorydesignpattern",
     "description": "This package contains the samples for factory design pattern in Laravel",
     "autoload": {
         "psr-4": {
