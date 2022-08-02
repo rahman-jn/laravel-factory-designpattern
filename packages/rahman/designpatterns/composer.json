@@ -1,0 +1,24 @@
+{
+    "name": "rahman/designpatterns",
+    "description": "This package contains the samples for design patterns in Laravel",
+    "autoload": {
+        "psr-4": {
+            "Rahman\\Designpatterns\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rahman Jafarinejad",
+            "email": "rahman.j88@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Rahman\\Designpatterns\\DesignPatternsServiceProvider"
+            ]
+        }
+    }
+}
