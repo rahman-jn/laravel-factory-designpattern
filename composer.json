@@ -1,6 +1,6 @@
 {
-    "name": "rahman/designpatterns",
-    "description": "This package contains the samples for design patterns in Laravel",
+    "name": "rhman/designpatterns",
+    "description": "This package contains the samples for factory design pattern in Laravel",
     "autoload": {
         "psr-4": {
             "Rahman\\Designpatterns\\": "src/"
