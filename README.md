@@ -1,6 +1,6 @@
 # Factory designpattern in Laravel
 
-Simple implementation of factory design pattern in laravel
+A simple implementation of factory design pattern in laravel
 
 for installation run this command in terminal:
 
