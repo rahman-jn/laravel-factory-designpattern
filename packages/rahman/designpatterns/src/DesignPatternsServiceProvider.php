@@ -14,7 +14,7 @@ class DesignPatternsServiceProvider extends ServiceProvider
     public function register()
     {
         include __DIR__.'/routes/web.php';
-        //$this->app->make('Rahman\Designpatterns\DesignPatternsController');
+        $this->app->make('Rahman\Designpatterns\Controllers\FactoryController');
     }
 
     protected function registerRoutes()
@@ -30,6 +30,7 @@ class DesignPatternsServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        $this->loadViewsFrom(__DIR__.'/views', 'design_patterns');
+
     }
 }
